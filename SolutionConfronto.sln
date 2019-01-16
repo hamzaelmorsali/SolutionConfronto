@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfrontoLibrary", "ConfrontoLibrary\ConfrontoLibrary.csproj", "{46AC15D1-6EA1-41BE-9ABA-7725DA39EF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfrontoLibrary_Tests", "ConfrontoLibrary_Tests\ConfrontoLibrary_Tests.csproj", "{593D1ED4-BD13-40B9-BEDE-5C626BCD4D0D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46AC15D1-6EA1-41BE-9ABA-7725DA39EF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AC15D1-6EA1-41BE-9ABA-7725DA39EF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AC15D1-6EA1-41BE-9ABA-7725DA39EF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AC15D1-6EA1-41BE-9ABA-7725DA39EF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593D1ED4-BD13-40B9-BEDE-5C626BCD4D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593D1ED4-BD13-40B9-BEDE-5C626BCD4D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593D1ED4-BD13-40B9-BEDE-5C626BCD4D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593D1ED4-BD13-40B9-BEDE-5C626BCD4D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
